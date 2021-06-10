@@ -28,8 +28,6 @@
 		<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentysixteen' ); ?></a>
 
 		<header id="masthead" class="site-header" role="banner">
- 
-<?php endif; ?>
 			<div class="site-header-main">
 				<div class="site-branding">
 					<?php twentysixteen_the_custom_logo(); ?>
@@ -103,8 +101,15 @@
 					</a>
 				</div><!-- .header-image -->
 			<?php endif; // End header image check. ?>
+<?php
 
+if ( is_active_sidebar( 'wpsircar-hdr-widget' ) ) : ?>
+<div id="header-widget-area" class="chw-widget-area widget-area" role="complementary">
+<?php dynamic_sidebar( 'wpsircar-hdr-widget' ); ?>
+</div>
 
-		</header><!-- .site-header -->
+<?php endif; ?>
+		
+</header><!-- .site-header -->
 
 		<div id="content" class="site-content">

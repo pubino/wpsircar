@@ -9,3 +9,7 @@ Version:        1.0
 */
 
 @import url("../twentysixteen/style.css");
+
+.site-header {
+	display: flex;
+}
