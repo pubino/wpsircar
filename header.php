@@ -104,14 +104,6 @@
 				</div><!-- .header-image -->
 			<?php endif; // End header image check. ?>
 
-<?php
-
-if ( is_active_sidebar( 'wpsircar-hdr-widget' ) ) : ?>
-<div id="header-widget-area" class="chw-widget-area widget-area" role="complementary">
-<?php dynamic_sidebar( 'wpsircar-hdr-widget' ); ?>
-</div>
-
-<?php endif; ?>
 
 		</header><!-- .site-header -->
 
