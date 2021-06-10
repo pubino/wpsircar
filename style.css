@@ -1,0 +1,11 @@
+/*
+Theme Name:     WP Sircar
+Theme URI:      http://sircar.princeton.edu
+Description:    A Wordpress sub-theme of Twenty Sixteen for use with sircar.
+Author:         Michael Bino
+Author URI:     http://orfe.priniceton.edu
+Template:       twentysixteen
+Version:        1.0
+*/
+
+@import url("../twentysixteen/style.css");
