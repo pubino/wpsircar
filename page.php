@@ -34,12 +34,9 @@ get_header(); ?>
 
 	</main><!-- .site-main -->
 
-	<?php
-	if ( is_active_sidebar( 'wpsircar-extcont-widget' ) ) : ?>
 	<div id="extcont-widget-area" class="chw-widget-area widget-area" role="complementary">
-	<?php dynamic_sidebar( 'wpsircar-extcont-widget' ); ?>
+	<?php get_sidebar( 'wpsircar-extcont-widget' ); ?>
 	</div>
-	<?php endif; ?>
 	
 	<?php get_sidebar( 'content-bottom' ); ?>
 
