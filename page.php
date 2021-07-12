@@ -39,6 +39,7 @@ get_header(); ?>
 	<div id="extcont-widget-area" class="chw-widget-area widget-area" role="complementary">
 	<?php dynamic_sidebar( 'wpsircar-extcont-widget' ); ?>
 	</div>
+	<?php endif; ?>
 	
 	<?php get_sidebar( 'content-bottom' ); ?>
 
