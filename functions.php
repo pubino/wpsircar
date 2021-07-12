@@ -15,14 +15,6 @@ function wpsircar_widgets_init() {
     'after_widget'  => '</div>',
     'before_title'  => '<h2 class="widget-title">',
     'after_title'   => '</h2>',
-  ), array(
-	'name'          => __( 'Extended Content Widgets', 'wpsircar' ),
-    'id'            => 'wpsircar-extcont-widget',
-    'description'   => __( 'Add widgets here to appear below the page content.', 'wpsircar' ),
-    'before_widget' => '<div id="%1$s" class="widget %2$s">',
-    'after_widget'  => '</div>',
-    'before_title'  => '<h2 class="widget-title">',
-    'after_title'   => '</h2>',
   ));
 }
 add_action( 'widgets_init', 'wpsircar_widgets_init' );
