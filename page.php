@@ -33,10 +33,6 @@ get_header(); ?>
 		?>
 
 	</main><!-- .site-main -->
-
-	<div id="extcont-widget-area" class="chw-widget-area widget-area" role="complementary">
-	<?php get_sidebar( 'wpsircar-extcont-widget' ); ?>
-	</div>
 	
 	<?php get_sidebar( 'content-bottom' ); ?>
 
