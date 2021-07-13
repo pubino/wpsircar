@@ -18,7 +18,7 @@ function wpsircar_widgets_init() {
   ));
     register_sidebar( array(
     'name'          => __( 'Content Well Widgets', 'wpsircar' ),
-    'id'            => 'wpsircar-contentwell-widget',
+    'id'            => 'wpsircar-contentwell-widget-area',
     'description'   => __( 'Add widgets here to appear after the content. The exact position of this group of widgets might be determined by CSS.', 'wpsircar' ),
     'before_widget' => '<div id="%1$s" class="widget %2$s">',
     'after_widget'  => '</div>',
@@ -27,4 +27,3 @@ function wpsircar_widgets_init() {
   ));
 }
 add_action( 'widgets_init', 'wpsircar_widgets_init' );
-
