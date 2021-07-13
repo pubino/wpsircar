@@ -38,7 +38,7 @@ get_header(); ?>
 		<div id="wpsircar-contentwell-widget-area" class="widget-area">
 			<?php dynamic_sidebar( 'wpsircar-contentwell-widget-area' ); ?>
 		</div>
-	<?php endif;?>
+
 	<?php get_sidebar( 'content-bottom' ); ?>
 
 </div><!-- .content-area -->
