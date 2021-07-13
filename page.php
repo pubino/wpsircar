@@ -33,11 +33,12 @@ get_header(); ?>
 		?>
 
 	</main><!-- .site-main -->
-	if ( is_active_sidebar( 'wpsircar-contentwell-widget-area' ))
+	<?php
+	if ( is_active_sidebar( 'wpsircar-contentwell-widget-area' ))?>
 		<div id="wpsircar-contentwell-widget-area" class="widget-area">
 			<?php dynamic_sidebar( 'wpsircar-contentwell-widget-area' ); ?>
 		</div>
-	endif;?>
+	<?php endif;?>
 	<?php get_sidebar( 'content-bottom' ); ?>
 
 </div><!-- .content-area -->
