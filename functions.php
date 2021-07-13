@@ -16,5 +16,15 @@ function wpsircar_widgets_init() {
     'before_title'  => '<h2 class="widget-title">',
     'after_title'   => '</h2>',
   ));
+    register_sidebar( array(
+    'name'          => __( 'Content Well Widgets', 'wpsircar' ),
+    'id'            => 'wpsircar-contentwell-widget',
+    'description'   => __( 'Add widgets here to appear after the content. The exact position of this group of widgets might be determined by CSS.', 'wpsircar' ),
+    'before_widget' => '<div id="%1$s" class="widget %2$s">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h2 class="widget-title">',
+    'after_title'   => '</h2>',
+  ));
 }
 add_action( 'widgets_init', 'wpsircar_widgets_init' );
+
