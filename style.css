@@ -13,3 +13,11 @@ Version:        1.0
 .site-header {
 	display: flex;
 }
+
+.site-main {
+	margin-bottom: 0;
+}
+
+.textwidget {
+	font-size: 1rem;
+}
