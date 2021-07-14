@@ -21,3 +21,7 @@ Version:        1.0
 .textwidget {
 	font-size: 1rem;
 }
+
+.site-footer .site-title, .site-footer .site-info {
+	display:none;
+}
