@@ -53,7 +53,7 @@ Version:        1.0
 }
 
 
-@media all and (max-width: 910px){
+@media all and (max-width: 910px) and (min-width: 44.375em) {
 	.site-main {
 		width: 100%;
 	}
