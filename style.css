@@ -54,8 +54,10 @@ Version:        1.0
 
 
 @media all and (max-width: 910px){
-	body.custom-background {
-		background-color:red;
-}
-
+	.site-main {
+		width: 100%;
+	}
+	.entry-content {
+		margin-right: none;
+	}
 }
