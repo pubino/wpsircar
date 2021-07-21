@@ -15,6 +15,13 @@ Version:        1.0
 	width: 100%;
 }
 
+@media all and (max-width: 910px)
+{
+	.site-header {
+		flex-flow: column;
+	}
+}
+
 .site-main {
 	margin-bottom: 0;
 	width: 70%;
