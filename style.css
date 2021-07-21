@@ -16,7 +16,7 @@ Version:        1.0
 
 .site-main {
 	margin-bottom: 0;
-	width: 75%;
+	width: 70%;
 	order: 1;
 }
 
@@ -42,13 +42,13 @@ Version:        1.0
 @media all and (min-width: 56.875em) {
 .sidebar {
 	margin-left: 0;
-	width: 25%;
+	width: 30%;
 	order: 3;
 }
 }
 
 #wpsircar-contentwell-widget-area {
-	width: 75%;
+	width: 70%;
 	order: 2;
 }
 
