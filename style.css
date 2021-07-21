@@ -18,7 +18,7 @@ Version:        1.0
 @media all and (max-width: 910px)
 {
 	.site-header {
-		flex-wrap: wrap;
+		flex-wrap: nowrap;
 		padding-bottom: 1em;
 	}
 }
