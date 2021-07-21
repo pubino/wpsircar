@@ -53,11 +53,21 @@ Version:        1.0
 }
 
 
-@media all and (max-width: 910px) and (min-width: 44.375em) {
+@media all and (min-width: 44.375em) {
+	.entry-content {
+		margin-right: 0;
+	}
+}
+
+@media all and (max-width: 910px) {
 	.site-main {
 		width: 100%;
 	}
 	.entry-content {
 		margin-right: none;
 	}
+	#wpsircar-contentwell-widget-area {
+		margin-left: 7.6923%;
+	}
+
 }
