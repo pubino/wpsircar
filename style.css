@@ -76,6 +76,7 @@ Version:        1.0
 	#wpsircar-contentwell-widget-area {
 		margin-left: 7.6923%;
 		order: 3;
+		width: 90%;
 	}
 	.sidebar {
 		order: 2;
