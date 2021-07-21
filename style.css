@@ -25,3 +25,13 @@ Version:        1.0
 .site-footer .site-title, .site-footer .site-info {
 	display:none;
 }
+
+@media all and (min-width: 56.875em) {
+.content-area {
+	display: flex;
+	flex-flow: column wrap;
+	float: none;
+	margin-right: 0;
+	width: 100%;
+}
+}
