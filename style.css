@@ -54,7 +54,7 @@ Version:        1.0
 
 
 @media all and (max-width: 910px){
-	body {
+	body.custom-background {
 		background-color:red;
 }
 
