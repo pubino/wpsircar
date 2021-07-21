@@ -17,6 +17,7 @@ Version:        1.0
 .site-main {
 	margin-bottom: 0;
 	width: 75%;
+	order: 1;
 }
 
 .textwidget {
@@ -42,10 +43,12 @@ Version:        1.0
 .sidebar {
 	margin-left: 0;
 	width: 25%;
+	order: 3;
 }
 }
 
 #wpsircar-contentwell-widget-area {
 	width: 75%;
+	order: 2;
 }
 
