@@ -85,4 +85,5 @@ Version:        1.0
 
 .chw-widget-area {
 	align-self: center;
+	min-width: 225px;
 }
