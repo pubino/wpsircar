@@ -15,10 +15,9 @@ Version:        1.0
 	width: 100%;
 }
 
-@media all and (max-width: 910px)
-{
+@media all and (max-width: 910px){
 	.site-header {
-		flex-wrap: nowrap;
+		flex-wrap: wrap;
 		padding-bottom: 1em;
 	}
 }
