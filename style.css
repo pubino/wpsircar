@@ -82,3 +82,7 @@ Version:        1.0
 	}
 
 }
+
+.chw-widget-area {
+	align-self: center;
+}
