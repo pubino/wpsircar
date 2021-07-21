@@ -52,3 +52,10 @@ Version:        1.0
 	order: 2;
 }
 
+
+@media all and (max-width: 910px){
+	body {
+		background-color:red;
+}
+
+}
